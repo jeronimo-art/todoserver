@@ -1,0 +1,114 @@
+.homepage {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(122.19deg, #969696 1.89%, #5c5c5c 113.56%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+* {
+  color: rgb(108, 99, 255);
+}
+
+
+.add-edit-input {
+  position: absolute;
+  background-color: #ffffff;
+  top: 20px;
+  outline: none;
+  border: none;
+  height: 40px;
+  font-size: 25px;
+  width: 36vw;
+  border-radius: 10px;
+  padding: 0 2vw 0 2vw;
+  border: 1px solid #52525280;
+  box-shadow: 0 10px 0px #52525280;
+}
+
+.add-confirm-icon {
+  position: absolute;
+  top: 25px;
+  left: 68vw;
+  box-shadow: 0 10px 0px #52525280;
+  cursor: pointer;
+  padding: 0 1vw 0 1vw;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #52525280;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #52525280;
+  box-shadow: 0 10px 0px #52525280;
+  min-width: 40vw;
+  max-width: 90vw;
+}
+
+.todo-sg{
+  position: absolute;
+  z-index: -1;
+  width: 30vw;
+}
+
+.todo > h1 {
+  width: 500px;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #52525280;
+  box-shadow: 0 10px 0px #52525280;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.logout-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 20px;
+  background: #ffffff;
+  color: #97979780;
+  border-radius: 10px;
+  border: 1px solid #52525280;
+  box-shadow: 0 10px 0px #52525280;
+}
+
+@media (max-width: 600px) {
+  .add-edit-input {
+    position: absolute;
+    top: 20px;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 25px;
+    width: 65vw;
+    left: 5vw;
+    border-radius: 10px;
+    padding: 0 2vw 0 2vw;
+    border: 1px solid #52525280;
+    box-shadow: 0 10px 0px #52525280;
+  }
+  .logout-icon {
+    top: 20px;
+    padding: 10px;
+  }
+}
